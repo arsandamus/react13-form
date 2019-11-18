@@ -1,22 +1,26 @@
-.App {
+.favoriteMovie {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.favoriteMovie h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.favoriteMovie .form-data {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 5px 0;
 }
 
-.App-link {
-  color: #09d3ac;
+.favoriteMovie .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.favoriteMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
 }
